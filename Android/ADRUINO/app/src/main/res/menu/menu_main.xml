@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app_name="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+<item android:id="@+id/action_settings"
+    android:title="@string/action_settings"
+    android:icon="@mipmap/ic_cogs"
+    android:orderInCategory="100"
+    app_name:showAsAction="always" />
+<item
+    android:id="@+id/action_help"
+    android:title="@string/action_help"
+    android:icon="@mipmap/ic_help"
+    android:orderInCategory="100"
+    app_name:showAsAction="always"
+    />
+</menu>
